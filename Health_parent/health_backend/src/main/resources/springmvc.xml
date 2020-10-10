@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop
+       https://www.springframework.org/schema/aop/spring-aop.xsd
+       http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--保护我方猪皮-->
+    <!--register-defaults="false" 如果是false spring就不会自动创建默认的那些转换器，默认是true，会自动创建-->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes" value="application/json"/>
+                <property name="features">
+                    <list>
+                        <!--写映射空值-->
+                        <value>WriteMapNullValue</value>
+                        <!--写入日期值用日期格式-->
+                        <value>WriteDateUseDateFormat</value>
+                    </list>
+                </property>
+            </bean>
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="defaultCharset" value="utf-8"/>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--开放资源权限-->
+    <mvc:default-servlet-handler/>
+    <!--指定应用名称-->
+    <dubbo:application name="health_backend"/>
+    <!--指定服务注册中心地址-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!--批量扫描-->
+    <dubbo:annotation package="cn.wss"/>
+    <!--设置全局超时时间
+        check="false" 不检查服务提供方，开发用false     上线用true
+    -->
+    <dubbo:consumer timeout="600000" check="false"/>
+
+
+    <!--文件上传-->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="104857600"/>
+        <property name="maxInMemorySize" value="4096"/>
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+    <!--引入文件上传配置文件-->
+    <import resource="classpath:spring-redis.xml"/>
+    <import resource="classpath:spring-security.xml"/>
+</beans>

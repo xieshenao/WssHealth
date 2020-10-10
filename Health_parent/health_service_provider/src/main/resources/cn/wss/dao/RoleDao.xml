@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.wss.dao.RoleDao">
+    <select id="findRoleByUserId" resultType="cn.wss.pojo.Role" parameterType="int">
+      SELECT r.* FROM t_user_role ur INNER JOIN t_user u ON ur.user_id = u.id INNER JOIN t_role r ON ur.role_id = r.id where ur.user_id = #{userId}
+    </select>
+</mapper>

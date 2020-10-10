@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.wss.dao.CheckGroupDao">
+
+    <select id="findAllBy" resultType="cn.wss.pojo.CheckGroup" parameterType="string">
+        select * from t_checkgroup
+            <if test="value != null and value.length > 0">
+                where
+                code like concat('%',#{value},'%')
+                or name like concat('%',#{value},'%')
+                or helpCode like concat('%',#{value},'%')
+            </if>
+    </select>
+
+    <!--
+        useGeneratedKeys：使用主键
+        keyProperty：主键再实体类中对应的属性
+    -->
+    <insert id="addCheckGroup" parameterType="cn.wss.pojo.CheckGroup" useGeneratedKeys="true" keyProperty="id">
+        <!--通过mybatis框架提供的selectKey标签获得自增产生的ID值-->
+        insert into t_checkgroup(code,name,sex,helpCode,remark,attention)
+        values
+        (#{code},#{name},#{sex},#{helpCode},#{remark},#{attention})
+    </insert>
+
+    <!--
+        添加多对多中间表，使用foreach
+        collection:指向dao中@Parm里面的名字
+        item：指定别名
+    -->
+    <insert id="addCheckGroupCheckItem" parameterType="int">
+      insert into t_checkgroup_checkitem values
+      <foreach collection="checkitemIds" item="item" separator=",">
+          (#{checkGroupId},#{item})
+      </foreach>
+    </insert>
+
+    <!--根据检查组id查询检查项id（返回数组）-->
+    <select id="findCheckItemIdsByCheckGroupId" parameterType="int" resultType="int">
+        select checkitem_id from t_checkgroup_checkitem where checkgroup_id = #{id}
+    </select>
+
+    <!--更新检查组-->
+    <update id="updateCheckGroup" parameterType="cn.wss.pojo.CheckGroup">
+        update t_checkgroup set
+        code=#{code},name=#{name},helpCode=#{helpCode},sex=#{sex},remark=#{remark},attention=#{attention}
+        where id = #{id}
+    </update>
+
+    <!--删除用户再编辑中取消的复选框-->
+    <delete id="batchDeleteCheckGroupAndCheckItem" parameterType="int">
+        delete from t_checkgroup_checkitem where checkgroup_id = #{checkGroupId}
+        and checkitem_id in
+        <foreach collection="checkItemIds" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </delete>
+
+    <!--删除-->
+    <delete id="deleteCheckGroup" parameterType="int">
+        delete from t_checkgroup where id = #{id}
+    </delete>
+
+    <delete id="deleteCheckGroupAndCheckItem" parameterType="int">
+        delete from t_checkgroup_checkitem where checkgroup_id = #{id}
+    </delete>
+
+    <select id="findAll" resultType="cn.wss.pojo.CheckGroup">
+        select * from t_checkgroup
+    </select>
+
+
+</mapper>

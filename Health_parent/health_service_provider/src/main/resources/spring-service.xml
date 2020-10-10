@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--指定应用名称-->
+    <dubbo:application name="health_service_provider"/>
+    <!--指定暴露服务的端口，如果不指定默认是20880-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+    <!--指定服务注册中心地址-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!--批量扫描，发布服务-->
+    <dubbo:annotation package="cn.wss.service"/>
+
+    <!--配置freemarker，将Configuration的创建交给SpringIOC容器-->
+    <bean id="freemarkerConfig"
+          class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+        <!--指定模板文件所在目录-->
+        <property name="templateLoaderPath" value="/WEB-INF/ftl/" />
+        <!--指定字符集-->
+        <property name="defaultEncoding" value="UTF-8" />
+        <property name="freemarkerSettings">
+            <props>
+                <!--用于解决前端报空指针问题-->
+                <prop key="classic_compatible">true</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--
+        加载属性文件，后期在java代码中会使用到属性文件中定义的key和value
+        file-encoding:生成的html文件目录中又汉子的话，设置编码格式
+     -->
+    <!--<context:property-placeholder location="classpath:freemarker.properties" file-encoding="UTF-8"/>
+-->
+</beans>

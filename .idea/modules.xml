@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/Health_common/Health_common.iml" filepath="$PROJECT_DIR$/Health_parent/Health_common/Health_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/Health_interfaces/Health_interfaces.iml" filepath="$PROJECT_DIR$/Health_parent/Health_interfaces/Health_interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/Health_parent.iml" filepath="$PROJECT_DIR$/Health_parent/Health_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WssHealth.iml" filepath="$PROJECT_DIR$/.idea/WssHealth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/health_backend/health_backend.iml" filepath="$PROJECT_DIR$/Health_parent/health_backend/health_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/health_jobs/health_jobs.iml" filepath="$PROJECT_DIR$/Health_parent/health_jobs/health_jobs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/health_mobile/health_mobile.iml" filepath="$PROJECT_DIR$/Health_parent/health_mobile/health_mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/health_service_provider/health_service_provider.iml" filepath="$PROJECT_DIR$/Health_parent/health_service_provider/health_service_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Health_parent/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/Health_parent/spring-security/spring-security.iml" />
+    </modules>
+  </component>
+</project>

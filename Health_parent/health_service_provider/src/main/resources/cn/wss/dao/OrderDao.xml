@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.wss.dao.OrderDao">
+    <!--根据日期查询预约设置表-->
+    <select id="findByOrderDate" resultType="cn.wss.pojo.OrderSetting" parameterType="date">
+      select * from t_ordersetting where orderDate = #{date}
+    </select>
+    <!--查询预约信息表是否有数据-->
+    <!--为了映射传过来的order数据中对应的每个字段-->
+    <resultMap id="orderMap" type="cn.wss.pojo.Order">
+        <id column="id" property="id"></id>
+        <result column="member_id" property="memberId"/>
+        <result column="orderDate" property="orderDate"/>
+        <result column="orderType" property="orderType"/>
+        <result column="orderStatus" property="orderStatus"/>
+        <result column="setmeal_id" property="setmealId"/>
+    </resultMap>
+    <select id="findByOrder" resultMap="orderMap" parameterType="cn.wss.pojo.Order">
+        select * from t_order
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="memberId != null">
+                and member_id = #{memberId}
+            </if>
+            <if test="orderDate != null">
+                and orderDate = #{orderDate}
+            </if>
+            <if test="orderType != null">
+                and orderType = #{orderType}
+            </if>
+            <if test="orderStatus != null">
+                and orderStatus = #{orderStatus}
+            </if>
+            <if test="setmealId != null">
+                and setmeal_id = #{setmealId}
+            </if>
+        </where>
+    </select>
+
+    <!--新增预约信息-->
+    <insert id="addOrder" parameterType="cn.wss.pojo.Order" useGeneratedKeys="true" keyProperty="id">
+        insert into t_order(member_id,orderDate,orderType,orderStatus,setmeal_id)
+        values (#{memberId},#{orderDate},#{orderType},#{orderStatus},#{setmealId})
+    </insert>
+
+    <select id="findById" resultType="java.util.Map" parameterType="int">
+      SELECT m.name mName,s.name sName,o.orderDate,o.orderType FROM t_order o INNER JOIN t_setmeal s ON o.setmeal_id = s.id INNER JOIN t_member m ON o.member_id = m.id
+      where o.id = #{id}
+    </select>
+
+    <!--在这日期之后的预约人数-->
+    <select id="findByThisOrder" resultType="java.lang.Integer" parameterType="string">
+        SELECT COUNT(id) FROM t_order WHERE orderDate &gt;= #{value}
+    </select>
+    <!--查询在这日期的到诊人数-->
+    <select id="findByThisVisits" resultType="java.lang.Integer" parameterType="string">
+        select count(id) from t_order where orderDate &gt;= #{value} and orderStatus = '已到珍'
+    </select>
+
+    <!--查询总预约人数-->
+    <select id="findByAll" resultType="int">
+        SELECT COUNT(id) FROM t_order
+    </select>
+
+</mapper>

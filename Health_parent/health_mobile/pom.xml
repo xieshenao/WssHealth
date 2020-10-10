@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+  <parent> 
+    <artifactId>Health_parent</artifactId>  
+    <groupId>cn.wss</groupId>  
+    <version>1.0-SNAPSHOT</version> 
+  </parent>  
+  <modelVersion>4.0.0</modelVersion>  
+  <!--    当前项目编码和JDK版本-->  
+  <properties> 
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+    <maven.compiler.source>1.8</maven.compiler.source>  
+    <maven.compiler.target>1.8</maven.compiler.target> 
+  </properties>  
+  <groupId>cn.wss</groupId>  
+  <artifactId>health_mobile</artifactId>  
+  <packaging>war</packaging>  
+  <!--依赖接口-->  
+  <dependencies> 
+    <dependency> 
+      <groupId>cn.wss</groupId>  
+      <artifactId>Health_interfaces</artifactId>  
+      <version>1.0-SNAPSHOT</version> 
+    </dependency> 
+  </dependencies>  
+  <build> 
+    <plugins> 
+      <!--Tomcat7插件-->  
+      <plugin> 
+        <groupId>org.apache.tomcat.maven</groupId>  
+        <artifactId>tomcat7-maven-plugin</artifactId>  
+        <version>2.2</version>  
+        <configuration> 
+          <port>8087</port>  
+          <path>/</path>  
+          <uriEncoding>UTF-8</uriEncoding>  
+          <server>tomcat7</server> 
+        </configuration> 
+      </plugin> 
+    </plugins> 
+  </build> 
+</project>

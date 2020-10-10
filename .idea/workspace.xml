@@ -1,0 +1,1316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d901a31b-44dd-4dda-bc25-136e69810719" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/Health_parent/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/Health_interfaces/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/Health_common/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/health_service_provider/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/health_backend/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/health_jobs/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/health_mobile/target/" />
+    <ignored path="$PROJECT_DIR$/Health_parent/spring-security/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="health@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="health@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="health@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="health: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1806986114">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="41" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.37" value="3" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="7" />
+          <entry key="css" value="3" />
+          <entry key="ftl" value="9" />
+          <entry key="gitignore" value="2" />
+          <entry key="html" value="141" />
+          <entry key="java" value="415" />
+          <entry key="jrxml" value="6" />
+          <entry key="js" value="6" />
+          <entry key="jsp" value="1" />
+          <entry key="png" value="3" />
+          <entry key="properties" value="18" />
+          <entry key="setmeal_details" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="t_checkgroup" value="2" />
+          <entry key="t_checkitem" value="2" />
+          <entry key="t_setmeal" value="6" />
+          <entry key="t_setmeal_checkgroup" value="1" />
+          <entry key="ttf" value="1" />
+          <entry key="xml" value="206" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="7" />
+          <entry key="CSS" value="3" />
+          <entry key="Database Element" value="11" />
+          <entry key="FTL" value="10" />
+          <entry key="Font" value="1" />
+          <entry key="Git file" value="2" />
+          <entry key="HTML" value="141" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="415" />
+          <entry key="JSP" value="1" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Properties" value="18" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="212" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="dummy" value="10" />
+          <entry key="gitignore" value="7" />
+          <entry key="html" value="10935" />
+          <entry key="java" value="26186" />
+          <entry key="js" value="2" />
+          <entry key="properties" value="63" />
+          <entry key="txt" value="147" />
+          <entry key="xml" value="5842" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="Git file" value="7" />
+          <entry key="HTML" value="10935" />
+          <entry key="JAVA" value="26186" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="157" />
+          <entry key="Properties" value="63" />
+          <entry key="SQL" value="163" />
+          <entry key="XML" value="5679" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.remote" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="jdbc.properties" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="MyBatis实体映射文件" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dataList</find>
+      <find>handleEdit</find>
+      <find>dataEditForm</find>
+      <find>closeAutomatedProof</find>
+      <find>closeDialog</find>
+      <find>查询</find>
+      <find>activeName</find>
+      <find>formData</find>
+      <find>resetFindPage</find>
+      <find>imageUrl</find>
+      <find>编辑</find>
+      <find>delete</find>
+      <find>dataAddForm</find>
+      <find>poi</find>
+      <find>downloadTemplate</find>
+      <find>jedisPool</find>
+      <find>hasRole</find>
+      <find>退出</find>
+      <find>s</find>
+      <find>$F{setmeal_count</find>
+      <find>logo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Health_parent/spring-security/src/main/webapp/index1.html" />
+        <option value="$PROJECT_DIR$/Health_parent/spring-security/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/spring-security/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/Health_parent/spring-security/src/main/java/com/aoshen/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/Health_parent/spring-security/src/main/java/com/aoshen/test/SpringSecurityUserService.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_interfaces/src/main/java/cn/wss/service/UserService.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/UserDao.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/RoleDao.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/RoleDao.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/PermissionDao.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/PermissionDao.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/exception/MyUserNameNotFoundException.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_common/src/main/java/cn/wss/pojo/UserNickname.java" />
+        <option value="$PROJECT_DIR$/Health_parent/spring-security/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/CheckItemController.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_interfaces/src/main/java/cn/wss/service/MemberService.java" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_interfaces/src/main/java/cn/wss/service/SetMealService.java" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_common/src/main/java/cn/wss/pojo/SetMealNumber.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/MemberServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_interfaces/src/main/java/cn/wss/service/ReportService.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/MemberDao.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/MemberDao.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/SetMealDao.java" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_common/src/main/java/cn/wss/pojo/HotSetmeal.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/OrderDao.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/Health_parent/Health_common/pom.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/ReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/SetMealDao.xml" />
+        <option value="$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/SetMealServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/ReportController.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_mobile/src/main/webapp/pages/index.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/main.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/service/SpringSecrityUserService.java" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/login.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/checkitem.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/checkgroup.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/ordersetting.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/report_business.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/report_member.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/report_setmeal.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/setmeal.html" />
+        <option value="$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/css/login.css" />
+        <option value="$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\apache-maven-3.3.9\maven-jar" />
+        <option name="mavenHome" value="E:/apache-maven-3.3.9/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.3.9\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_backend" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_mobile" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_mobile" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_mobile" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="health_service_provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="355" />
+    <option name="y" value="21" />
+    <option name="width" value="868" />
+    <option name="height" value="724" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Mybatis</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>MybatisMapperMethodInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WssHealth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WssHealth" type="462c0819:PsiDirectoryNode" />
+              <item name="Health_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="health_jobs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wss" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Spring_01/WssHealth/Health_parent/health_backend/src/main/java/cn/wss/controller/SetMealController.java&#10;QiniuUtils&#9;FILE&#9;file://E:/Spring_01/WssHealth/Health_parent/Health_common/target/Health_common-1.0-SNAPSHOT/cn/wss/util/QiniuUtils.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602307717388" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Issue.Navigation" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Spring_01\WssHealth\Health_parent\health_service_provider\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aoshen.pojo" />
+      <recent name="cn.wss.jobs" />
+      <recent name="cn.wss.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Spring_01\WssHealth\Health_parent\health_backend\src\main\webapp\template" />
+      <recent name="E:\Spring_01\WssHealth\Health_parent\health_backend\src\main\resources" />
+      <recent name="E:\Spring_01\WssHealth\Health_parent\health_backend\src\main\webapp\pages" />
+      <recent name="E:\Spring_01\WssHealth\Health_parent\health_backend\src\main\webapp\plugins\echarts" />
+      <recent name="E:\Spring_01\WssHealth\Health_parent\spring-security\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.health_backend [tomcat7:run]">
+    <configuration name="PasswordEncodingTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-security" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aoshen.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.aoshen.test" />
+      <option name="MAIN_CLASS_NAME" value="com.aoshen.test.PasswordEncodingTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportController.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="health_backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.wss.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.wss.controller" />
+      <option name="MAIN_CLASS_NAME" value="cn.wss.controller.ReportController" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="health_backend [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Health_parent/health_backend" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="health_service_provider [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Health_parent/health_service_provider" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-security [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Health_parent/spring-security" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.spring-security [tomcat7:run]" />
+      <item itemvalue="JUnit.PasswordEncodingTest.test" />
+      <item itemvalue="Maven.health_backend [tomcat7:run]" />
+      <item itemvalue="JUnit.ReportController.test" />
+      <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.health_backend [tomcat7:run]" />
+        <item itemvalue="Maven.health_service_provider [tomcat7:run]" />
+        <item itemvalue="JUnit.ReportController.test" />
+        <item itemvalue="Maven.spring-security [tomcat7:run]" />
+        <item itemvalue="JUnit.PasswordEncodingTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d901a31b-44dd-4dda-bc25-136e69810719" name="Default Changelist" comment="" />
+      <created>1594379264726</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594379264726</updated>
+      <workItem from="1594379266052" duration="4483000" />
+      <workItem from="1594389851439" duration="272000" />
+      <workItem from="1594427928902" duration="27242000" />
+      <workItem from="1594514300328" duration="6992000" />
+      <workItem from="1594525982400" duration="13640000" />
+      <workItem from="1594553933183" duration="1508000" />
+      <workItem from="1594599271712" duration="6032000" />
+      <workItem from="1594643406511" duration="7150000" />
+      <workItem from="1594687111143" duration="23240000" />
+      <workItem from="1594773275532" duration="3781000" />
+      <workItem from="1594781358345" duration="14835000" />
+      <workItem from="1594815415356" duration="1500000" />
+      <workItem from="1594823793834" duration="2909000" />
+      <workItem from="1594861164468" duration="24459000" />
+      <workItem from="1594947065997" duration="14588000" />
+      <workItem from="1595032868073" duration="19964000" />
+      <workItem from="1595134793830" duration="1213000" />
+      <workItem from="1595139686635" duration="77000" />
+      <workItem from="1595140250573" duration="1692000" />
+      <workItem from="1595206891023" duration="9484000" />
+      <workItem from="1595291626114" duration="27016000" />
+      <workItem from="1595378541130" duration="26633000" />
+      <workItem from="1595465042414" duration="15382000" />
+      <workItem from="1595551397068" duration="9418000" />
+      <workItem from="1595581165404" duration="10650000" />
+      <workItem from="1595656646349" duration="17547000" />
+      <workItem from="1595724167945" duration="22244000" />
+      <workItem from="1595810115456" duration="14874000" />
+      <workItem from="1595897655112" duration="15287000" />
+      <workItem from="1595923464082" duration="139000" />
+      <workItem from="1595925334046" duration="1256000" />
+      <workItem from="1595985025556" duration="8293000" />
+      <workItem from="1596028647709" duration="1338000" />
+      <workItem from="1596157567063" duration="1159000" />
+      <workItem from="1596435420809" duration="2511000" />
+      <workItem from="1596548332901" duration="249000" />
+      <workItem from="1596797184939" duration="263000" />
+      <workItem from="1596898685250" duration="38000" />
+      <workItem from="1597738680730" duration="1013000" />
+      <workItem from="1599654565166" duration="3091000" />
+      <workItem from="1599729916890" duration="549000" />
+      <workItem from="1602300164076" duration="2935000" />
+    </task>
+    <task id="LOCAL-00001" summary="谢申奥的第一次提交：项目搭建完成">
+      <created>1594380750514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594380750514</updated>
+    </task>
+    <task id="LOCAL-00002" summary="谢申奥的第一次提交：项目搭建完成">
+      <created>1594382055496</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594382055496</updated>
+    </task>
+    <task id="LOCAL-00003" summary="谢申奥的第二次提交，完成一部分前端页面的部署">
+      <created>1594384272559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594384272559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="谢申奥的第三次提交，保护我方猪皮">
+      <created>1594390107683</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594390107683</updated>
+    </task>
+    <task id="LOCAL-00005" summary="谢申奥的第四次提交，加了个小controller和几个工具类">
+      <created>1594428138305</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594428138305</updated>
+    </task>
+    <task id="LOCAL-00006" summary="大哥的第五次提交，解决新建、分页等功能">
+      <created>1594481364713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594481364713</updated>
+    </task>
+    <task id="LOCAL-00007" summary="大哥的第六次提交，完成检查项和检查组的增删改查">
+      <created>1594738427368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594738427368</updated>
+    </task>
+    <task id="LOCAL-00008" summary="完成移动端，完成后端权限控制">
+      <created>1595724679148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595724679148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="完成移动端，完成后端权限控制">
+      <created>1602300589739</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602300589739</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完成移动端，完成后端权限控制">
+      <created>1602301588994</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602301588994</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReportController_test - 2020.07.26 at 17h 57m 44s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.26 at 17h 58m 56s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.26 at 17h 59m 13s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.26 at 19h 24m 53s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.27 at 19h 20m 56s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.27 at 19h 21m 12s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.27 at 19h 21m 43s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.27 at 21h 02m 07s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.27 at 21h 02m 30s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReportController_test - 2020.07.27 at 21h 02m 47s.xml">
+      <configuration name="ReportController.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="366946000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="753" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329582" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.255627" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.20900321" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.27974278" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.24205749" />
+      <window_info anchor="right" id="Database" order="7" weight="0.2980333" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.329582" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.1318328" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.20900321" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.27974278" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.24205749" />
+      <window_info anchor="right" id="Database" order="7" weight="0.2980333" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="谢申奥的第一次提交：项目搭建完成" />
+    <MESSAGE value="谢申奥的第二次提交，完成一部分前端页面的部署" />
+    <MESSAGE value="谢申奥的第三次提交，保护我方猪皮" />
+    <MESSAGE value="谢申奥的第四次提交，加了个小controller和几个工具类" />
+    <MESSAGE value="大哥的第五次提交，解决新建、分页等功能" />
+    <MESSAGE value="大哥的第六次提交，完成检查项和检查组的增删改查" />
+    <MESSAGE value="完成移动端，完成后端权限控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成移动端，完成后端权限控制" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Health_parent/health_mobile/src/main/java/com/aoshen/controller/MemberController.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/freemarker.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/Health_common/src/main/java/cn/wss/pojo/SetMealNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/MemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/OrderDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/dao/SetMealDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/MemberDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/Health_interfaces/src/main/java/cn/wss/service/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/resources/cn/wss/dao/SetMealDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/Health_common/src/main/java/cn/wss/pojo/HotSetmeal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/resources/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_mobile/src/main/java/com/aoshen/controller/SetMealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_mobile/src/main/java/com/aoshen/controller/ValidateCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_mobile/src/main/webapp/pages/orderInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4416">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_mobile/src/main/java/com/aoshen/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3640">
+          <caret line="140" column="25" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/resources/spring-jobs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/MemberServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/resources/jasperreports_extension.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/resources/stsong/stsong.ttf">
+      <provider selected="true" editor-type-id="fontseditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/resources/stsong/fonts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_mobile/src/main/webapp/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/ReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_service_provider/src/main/java/cn/wss/service/impl/SetMealServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/SetMealController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/ReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/CheckGroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/controller/CheckItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="84" column="8" lean-forward="true" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/java/cn/wss/service/SpringSecrityUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="58" column="27" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/checkgroup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/checkitem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/img/loginLogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/img/logingBg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/ordersetting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/report_business.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/report_member.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/report_setmeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/pages/setmeal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_backend/src/main/webapp/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>health_backend:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Health_common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

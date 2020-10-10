@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.wss.dao.SetMealDao">
+
+    <select id="findSetMealAll" resultType="cn.wss.pojo.Setmeal" parameterType="string">
+      select * from t_setmeal
+      <if test="value != null and value.length > 0">
+          where
+          name like concat('%',#{value},'%')
+          or code like concat('%',#{value},'%')
+          or helpCode like concat('%',#{value},'%')
+      </if>
+    </select>
+
+    <insert id="addSetMeal" parameterType="cn.wss.pojo.Setmeal" useGeneratedKeys="true" keyProperty="id">
+      insert into t_setmeal(code,name,sex,age,helpCode,price,remark,attention,img)
+      values
+      (#{code},#{name},#{sex},#{age},#{helpCode},#{price},#{remark},#{attention},#{img})
+    </insert>
+    <insert id="addSetMealAndCheckGroup" parameterType="int">
+      insert into t_setmeal_checkgroup values 
+      <foreach collection="checkGroupIds" item="item" separator=",">
+          (#{setmealId},#{item})
+      </foreach>
+    </insert>
+
+    <select id="findByCheckGroupId" parameterType="int" resultType="int">
+        select checkgroup_id from t_setmeal_checkgroup where setmeal_id = #{id}
+    </select>
+
+    <update id="updateSetMeal" parameterType="cn.wss.pojo.Setmeal">
+        update t_setmeal set
+        name=#{name},code=#{code},helpCode=#{helpCode},sex=#{sex},age=#{age},price=#{price},remark=#{remark},attention=#{attention},img=#{img}
+        where id = #{id}
+  </update>
+
+    <delete id="deleteSetMealAndCheckGroup" parameterType="int">
+      delete from t_setmeal_checkgroup where setmeal_id = #{id} and
+      checkgroup_id in
+        <foreach collection="checkGroupIds" item="item" open="(" close=")" separator=",">
+            #{item}
+        </foreach>
+    </delete>
+    <delete id="delete" parameterType="int">
+        delete from t_setmeal where id = #{id}
+    </delete>
+
+    <select id="findAll" resultType="cn.wss.pojo.Setmeal">
+        select * from t_setmeal
+    </select>
+
+    <select id="findSetMealById" parameterType="int" resultType="cn.wss.pojo.Setmeal">
+        select * from t_setmeal where id = #{id}
+    </select>
+
+    <select id="findCheckGroupBySetMealId" parameterType="int" resultType="cn.wss.pojo.CheckGroup">
+        <!--现根据id查出中间表的所有检查组id，再根据检查组id查询出数据-->
+        select * from t_checkgroup where id in(select checkgroup_id from t_setmeal_checkgroup where setmeal_id = #{id})
+    </select>
+
+    <!--根据检查组id查出中间表所有的检查项id，再根据检查项id查询出所有的检查项-->
+    <select id="findCheckItemByCheckGroup" parameterType="int" resultType="cn.wss.pojo.CheckItem">
+        select * from t_checkitem where id in(select checkitem_id from t_checkgroup_checkitem where checkgroup_id = #{checkGroupId})
+    </select>
+    <!--查询套餐和被订阅的数量-->
+    <select id="findNameValue" resultType="cn.wss.pojo.SetMealNumber">
+        SELECT s.name,COUNT(o.id) value FROM t_setmeal s INNER JOIN t_order o ON s.id = o.setmeal_id GROUP BY s.id
+    </select>
+    <!--查询预约人数占前四名的套餐名称-->
+    <select id="findSetMealLimitFour" resultType="cn.wss.pojo.HotSetmeal">
+        SELECT s.name,COUNT(s.id)setmeal_count FROM t_order o INNER JOIN t_setmeal s ON o.setmeal_id = s.id GROUP BY s.id ORDER BY setmeal_count DESC
+    </select>
+
+</mapper>

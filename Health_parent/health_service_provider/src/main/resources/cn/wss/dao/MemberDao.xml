@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.wss.dao.MemberDao">
+
+    <!--根据电话查询会员表信息-->
+    <select id="findByTelephone" resultType="cn.wss.pojo.Member" parameterType="string">
+      select * from t_member where phoneNumber = #{telephone}
+    </select>
+    <!--增加会员信息-->
+    <insert id="addMember" parameterType="cn.wss.pojo.Member" useGeneratedKeys="true" keyProperty="id">
+      insert into t_member(name,sex,idCard,phoneNumber,regTime) values(#{name},#{sex},#{idCard},#{phoneNumber},#{regTime})
+    </insert>
+
+    <!--根据日期查询会员数量-->
+    <select id="findCountByregTime" resultType="java.lang.Integer" parameterType="string">
+        select count(id) from t_member where regTime &lt;= #{date}
+    </select>
+    <!--获取今日增加的会员数-->
+    <select id="findByThisToday" resultType="java.lang.Integer" parameterType="string">
+      SELECT COUNT(id) FROM t_member WHERE regTime = #{reportDate}
+    </select>
+    <!--获取本周新增日期-->
+    <select id="findByThisWeek" resultType="java.lang.Integer" parameterType="string">
+      select count(id) from t_member where regTime &gt;= #{thisWeekMonday}
+    </select>
+    <!--获取本月新增日期-->
+    <select id="findByThisMonth" resultType="java.lang.Integer" parameterType="string">
+      select count(id) from t_member where regTime &gt;= #{firstDay4ThisMonth}
+    </select>
+
+    <!--查询总会员数-->
+    <select id="findCount" resultType="java.lang.Integer">
+      select count(id) from t_member
+    </select>
+
+
+</mapper>
