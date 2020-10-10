@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d901a31b-44dd-4dda-bc25-136e69810719" name="Default Changelist" comment="" />
+    <list default="true" id="d901a31b-44dd-4dda-bc25-136e69810719" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/Health_parent/target/" />
     <ignored path="$PROJECT_DIR$/Health_parent/Health_interfaces/target/" />
     <ignored path="$PROJECT_DIR$/Health_parent/Health_common/target/" />
@@ -127,7 +129,7 @@
           <entry key="dummy" value="10" />
           <entry key="gitignore" value="7" />
           <entry key="html" value="10935" />
-          <entry key="java" value="26186" />
+          <entry key="java" value="26187" />
           <entry key="js" value="2" />
           <entry key="properties" value="63" />
           <entry key="txt" value="147" />
@@ -139,7 +141,7 @@
           <entry key="CLASS" value="2" />
           <entry key="Git file" value="7" />
           <entry key="HTML" value="10935" />
-          <entry key="JAVA" value="26186" />
+          <entry key="JAVA" value="26187" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="157" />
           <entry key="Properties" value="63" />
@@ -160,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -353,7 +355,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="355" />
     <option name="y" value="21" />
     <option name="width" value="868" />
@@ -462,9 +464,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/Spring_01/WssHealth/Health_parent/health_backend/src/main/java/cn/wss/controller/SetMealController.java&#10;QiniuUtils&#9;FILE&#9;file://E:/Spring_01/WssHealth/Health_parent/Health_common/target/Health_common-1.0-SNAPSHOT/cn/wss/util/QiniuUtils.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602307717388" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602309103527" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Arithmetic(算法)/Arithmetic-选择排序" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -677,7 +679,7 @@
       <workItem from="1597738680730" duration="1013000" />
       <workItem from="1599654565166" duration="3091000" />
       <workItem from="1599729916890" duration="549000" />
-      <workItem from="1602300164076" duration="2935000" />
+      <workItem from="1602300164076" duration="3535000" />
     </task>
     <task id="LOCAL-00001" summary="谢申奥的第一次提交：项目搭建完成">
       <created>1594380750514</created>
@@ -785,10 +787,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366946000" />
+    <option name="totallyTimeSpent" value="367546000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="753" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="753" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
@@ -1218,7 +1220,7 @@
     <entry file="file://$PROJECT_DIR$/Health_parent/health_jobs/src/main/java/cn/wss/jobs/ClearImgJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
